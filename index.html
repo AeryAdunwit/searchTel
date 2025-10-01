@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base target="_top">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web App</title>   <style>
+    /* ลบ margin และ padding เริ่มต้นของ body เพื่อให้ iframe เต็มหน้าจอจริง ๆ */
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
-  <iframe 
-    src="https://script.google.com/macros/s/AKfycbwUJgi5W3gsO0rsb-klE4zrFaDFMBY5vrJ2OrKEygA4WXp8p09X1eJA-ItkIOAu6pS8JQ/exec"
-    style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border: 0;"
-    allow="fullscreen; autoplay; encrypted-media"
-  ></iframe>
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycbzPWOKD-tp3OlmVpB20uBdV6ITMxZWCulS0QYA5ZCOn-OJ_rFVBthL5YPXLexFyRoHPlQ/exec"
+    style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border: 0;"
+    allow="fullscreen; autoplay; encrypted-media"
+    frameborder="0" /* เพิ่มการลบ border แบบดั้งเดิมในเบราว์เซอร์เก่า */
+  ></iframe>
 </body>
 </html>
